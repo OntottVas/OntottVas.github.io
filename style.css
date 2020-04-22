@@ -1,0 +1,110 @@
+.container {
+  max-width: 600px;
+  font-family: 'Open Sans', sans-serif;
+  background: ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#email {
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 3px;
+  border: thin solid #cfcfcf;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-bottom: 5px;
+}
+
+#terms {
+  position: relative;
+  top: 2px;
+  left: 0px;
+}
+
+ button {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px; 
+  color: white;
+  background: #3cb878;
+  border: none;
+   
+  border-radius: 3px;
+}
+
+.newsletterbox{
+  color: grey;
+  border: thin solid #cfcfcf;
+  border-radius: 3px;
+  padding: 10px;
+  
+  position: relative;
+}
+
+.newsletterbox h3 {
+  margin-top: 0;
+  
+/*   color: green; */
+}
+
+.closex {
+  position: absolute;
+  top: 0px;
+  right: 7px;
+  
+  cursor: pointer;
+}
+
+.questioncircle {
+  width: 100px;
+  height: 100px;
+  background: #3cb878;
+  border-radius: 50%;
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.card {
+  width: 180px;
+  background: #3cb878;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  box-shadow: 0px 0px 5px 2px grey;
+  
+/*   flex-grow: 1; */
+}
+
+.cardholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+  margin-bottom: 30px;
+  
+/*   height: 600px; */
+}
+
+/* flex box have two axis: main = x, and cross = y, they are interchangeable: flex-direction: column; or row;
+the direction can be reversed */
+
+/* #second { 
+  color: red;
+}*/
+
+/* 
+  - default display inline for input, and button
+  - id is superior because it is unique, and specific (than class)
+*/
