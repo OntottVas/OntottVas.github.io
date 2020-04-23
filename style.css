@@ -1,0 +1,196 @@
+body {
+  width: 1200px;
+  margin: auto;
+  padding-top: 0px;
+  border-top: 2px solid #222;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* font families/colors:
+header/quotes:
+font-family: 'Abril Fatface', cursive; 
+#222 grey
+
+paragraphs: 
+font-family: 'Josefin Sans', sans-serif;
+#222 grey
+
+subtitles:
+font-family: 'Merriweather', serif;
+
+*/
+
+
+header {
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+  padding-top: 0px;
+  
+  background-image:
+    url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+h1 {
+  font-size: 40px;
+  color: #222;
+  background-color: transparent;
+  position: absolute;  
+  bottom: 10px;
+  left: 210px;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  color: #222;
+  margin-bottom: 0;
+}
+
+#name {
+  font-size: 80px;
+}
+
+div {
+  width: 780px;
+  margin: auto;
+  margin-bottom: 25px;
+}
+
+.headertext {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.headerlist {
+  font-size: 20px;
+  margin-bottom: 10px;
+  
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #222;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+li {
+  font-size: 16px;
+  list-style-type: square;
+  margin-bottom: 6px;
+}
+
+/* #quotes {
+  color: white;
+  font-size: 40px;
+  font-family: 'Abril Fatface', cursive;
+  margin: auto;
+  
+} */
+
+/* .quote {
+  width: 900px;
+  height: 150px;
+  background: #353535;
+  text-align: center;
+}
+
+#quotes::before {
+  content: '"';
+  color: white;
+  
+  font-size: 90px;
+  position: relative;
+  right: 120px;
+} */
+
+.quote {
+  width: 850px;
+  height: 200px;
+  
+  margin: auto;
+  color: white;
+  text-align: center;
+  background: #565656;
+  text-align: center;
+  
+  font-size: 50px;
+  font-family: 'Abril Fatface', cursive;  
+}
+
+.quote::before {
+  content: '“';
+  font-size: 110px;
+  position: relative;
+    right: 0px;
+}
+
+#firstquote::before {
+  position: relative;
+  right: 25px;
+  bottom: 19px;
+}
+
+#secondquote::before {
+  position: relative;
+  bottom: 18px;
+}
+
+#lastquote {
+  height: 300px;
+}
+
+#lastquote::before {
+  position: relative;
+  right: 65px;
+  bottom: 18px;
+}
+
+.subtitle {
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
+  margin: 0px;
+  font-weight: bold;
+}
+
+footer {
+  width: 780px;
+  margin: auto;
+}
+
+#line {
+  width: 780px;
+  height: 1px;
+  background: #222;
+  border: thin solid #222;
+  box-shadow: 0px 0px 1px 0.5px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+#ending {
+  margin-bottom: 40px;
+}
