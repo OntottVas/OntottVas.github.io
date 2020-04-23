@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.container {
+    border: 2px solid #3380FF;
+    padding: 20px;
+    padding-right: 2px;
+    margin-bottom: 20px;    
+    display: flex;
+}
+
+#second {
+    background: #FF5133;
+}
+
+.box, .otherbox {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.box {
+    background: #3380FF;
+}
+
+.otherbox {
+    background: purple;
+}
